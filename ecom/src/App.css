@@ -1,0 +1,142 @@
+
+.nav{
+display: flex;
+/* border: 2px solid red; */
+background-color: whitesmoke;
+font-size: larger;
+font-weight: bolder;
+
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+.nav ul{
+  display: flex;
+  /* list-style:circle; */
+  /* text-decoration: none; */
+  /* padding-left:100px ; */
+}
+.nav ul li{
+  margin-right: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  /* border: 2px solid red; */
+  /* background-color: blue; */
+  color: royalblue;
+  /* border-radius: 10px; */
+}
+.image{
+  width: 150px;
+  height: 120px;
+
+}
+.card{
+  /* border: 2px solid black; */
+  height: 3000px;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  justify-content: center;
+  /* align-items: center; */
+}
+.card1{
+  /* border: 2px solid red; */
+  height: 350px;
+  width: 400px;
+  /* justify-content: center; */
+  background-color: white;
+  align-items: center;
+  font-size: medium;
+  padding-top: 20px;
+  /* padding-left: 40px; */
+  margin-left: 20px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.txt{
+  padding-top: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+.cart-item{
+  /* border: 2px solid red; */
+  display: flex;
+  border-radius: 24px;
+  list-style: none;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 80px;
+  margin-top: 50px;
+  background-color: white;
+
+}
+.cart-image{
+  height: 100px;
+  width: 100px;
+  
+}
+.cart-txt{
+  /* color: red; */
+  /* margin-left: 150px; */
+font-size: larger;
+}
+.cart-price{
+  margin-left: 150px;
+font-size: larger;
+}
+.cart-btn{
+  margin-left: 150px;
+  font-size: larger;
+}
+.card-name{
+  /* border: 2px solid red; */
+  
+  width: 600px;
+  height: 50px;
+  margin-left:150px;
+  display: flex;
+  justify-content: left;
+  align-items:start;
+}
+.cart-btn{
+  border-radius: 10px;
+  /* background-color: aqua; */
+  font-size: 20px;
+  border: none;
+  height: 50px;
+  width: 100px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:500;
+}
+.cart-btn:hover{
+  cursor: pointer;
+  /* border: 2px solid blue;
+   */
+   background-color: royalblue;
+   color: white;
+}
+
+body{
+  background-color: whitesmoke;
+}
+.cartbtn{
+  /* color: aqua; */
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  border: none;
+  font-size: 18px;
+background-color: royalblue;
+font-weight: bolder;
+color: white;
+}
+.cartbtn:hover{
+  cursor: pointer;
+   background-color: rgb(32, 50, 102);
+}
